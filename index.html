@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lodash-min.js"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="header" id="header">
+        <p id="title">Battleship Turmoil</p>
+        <div id="buttonContainer">
+            <button id="quickStart">Quick Start</button>
+            <button id="customStart">Normal Start <br> (recommended)</button>
+            <button id="shortTutorial">Short Tutorial</button>
+        </div>
+    </div>
+
+    <div id="gameboardOuter">
+        <div id="sideOne">
+            <div id="decisionOne"></div>
+            <div class="gameboard" id="player1Board">
+                <div>player</div>
+                <div class="firstRow">
+                    <div class="row">A</div>
+                    <div class="row">B</div>
+                    <div class="row">C</div>
+                    <div class="row">D</div>
+                    <div class="row">E</div>
+                    <div class="row">F</div>
+                    <div class="row">G</div>
+                    <div class="row">H</div>
+                    <div class="row">I</div>
+                    <div class="row">J</div>
+                </div>
+                <div class="firstColumn">
+                    <div class="column">1</div>
+                    <div class="column">2</div>
+                    <div class="column">3</div>
+                    <div class="column">4</div>
+                    <div class="column">5</div>
+                    <div class="column">6</div>
+                    <div class="column">7</div>
+                    <div class="column">8</div>
+                    <div class="column">9</div>
+                    <div class="column">10</div>
+                </div>
+                <div class="xyLayout" id="xyLayoutID">
+                </div>
+            </div>
+        </div>
+        <div id="sideTwo">
+            <p id="decisionTwo"></p>
+            <div class="gameboard" id="player2Board">
+                <div>comp.</div>
+                <div class="firstRow">
+                    <div class="row">A</div>
+                    <div class="row">B</div>
+                    <div class="row">C</div>
+                    <div class="row">D</div>
+                    <div class="row">E</div>
+                    <div class="row">F</div>
+                    <div class="row">G</div>
+                    <div class="row">H</div>
+                    <div class="row">I</div>
+                    <div class="row">J</div>
+                </div>
+                <div class="firstColumn">
+                    <div class="column">1</div>
+                    <div class="column">2</div>
+                    <div class="column">3</div>
+                    <div class="column">4</div>
+                    <div class="column">5</div>
+                    <div class="column">6</div>
+                    <div class="column">7</div>
+                    <div class="column">8</div>
+                    <div class="column">9</div>
+                    <div class="column">10</div>
+                </div>
+                <div class="xyLayout" id="xyLayoutID2">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "Classic battleship strategy game remade in Javascript.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HRDTS/Battleship.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HRDTS/Battleship/issues"
+  },
+  "homepage": "https://github.com/HRDTS/Battleship#readme"
+}
