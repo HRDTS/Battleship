@@ -307,6 +307,8 @@ function myFunction() { // there is a 3 second delay for each computer move to m
   }
 
 let divClasses = document.querySelectorAll('.divClass2')
+let commander1 = document.getElementsByClassName('commander1')[0]
+let commander2 = document.getElementsByClassName('commander2')[0]
 
 // this code creates an addeventlistener to all the tiles of the computer. So if the user clicks (read: attacks) on the computers board, the functions to register a hit will be called and
 // the functions to make the computer attack will be called.
@@ -378,11 +380,15 @@ divClasses.forEach(divClass => {
         }
 
         if(player1.getGameBoard().areAllShipsSunk()) { // before allowing the user to make another attack, check if any of the players shipbase is completely sunk. If so, end game and determine winner.
+            commander1.remove() // this removes the header of the gameboard to make space for the win/loss notification
+            commander2.remove()
             document.getElementById('decisionOne').textContent = 'You lost!';
             document.getElementById('decisionOne').style.color = 'red';
             document.getElementById('decisionTwo').textContent = 'Computer won!';
         }
         if(player2.getGameBoard().areAllShipsSunk()) {
+            commander1.remove()
+            commander2.remove()
             document.getElementById('decisionOne').textContent = 'You won!';
             document.getElementById('decisionTwo').textContent = 'Computer lost!';
             document.getElementById('decisionTwo').style.color = 'red';
