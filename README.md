@@ -1,7 +1,15 @@
 <h1>Project title:</h1><br>
+
 Classic battleship strategy game remade in Javascript<br>
+
 <strong> LIVE: https://battleship-phi.vercel.app/ </strong><br>
+
+<h1>Screenshot one: ![homepage](https://raw.githubusercontent.com/HRDTS/Battleship/main/img/battleshipss1.png)</h1><br>
+
+<h1>Screenshot two: ![gameplay](https://raw.githubusercontent.com/HRDTS/Battleship/main/img/battleshipss2.png)</h1><br>
+
 <h1>Project description:<h1><br>
+
 This project is built in vanilla Javascript, HTML and CSS. 
 
 Game explanation: there are two players with each their own game board and their own fleet (10 ships). There are 100 tiles on each game board.  The ships have different sizes, some ships take up only 1 tile, whereas other ships take up 4 tiles. Before the game can start, the users need to place their ships on the game board.  After the ship placement, the players can click one by one on the opponents game board. The goal is to click on a tile that contains a ship. Each hit (click) reveals a tile: the tile is either empty (missed shot) or it contains a ship (accurate hit). Hitting a ship grants the player one more turn.
