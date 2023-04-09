@@ -5,10 +5,14 @@ Classic battleship strategy game remade in Javascript<br>
 <strong> LIVE: https://battleship-phi.vercel.app/ </strong><br>
 
 <h1>Screenshot one:</h1><br> 
+
 ![homepage](https://raw.githubusercontent.com/HRDTS/Battleship/main/img/battleshipss1.png)
 
 <h1>Screenshot two: </h1><br> 
+
 ![gameplay](https://raw.githubusercontent.com/HRDTS/Battleship/main/img/battleshipss2.png)
+
+![Screenshot two](https://raw.githubusercontent.com/HRDTS/Battleship/main/img/battleshipss2.png)
 
 <h1>Project description:</h1><br>
 
