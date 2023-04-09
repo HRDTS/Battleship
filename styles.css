@@ -45,7 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(./battleshipBackground.jpg);
+    background-image: url(./img/battleshipBackground.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
