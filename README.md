@@ -12,7 +12,6 @@ Classic battleship strategy game remade in Javascript<br>
 
 ![gameplay](https://raw.githubusercontent.com/HRDTS/Battleship/main/img/battleshipss2.png)
 
-![Screenshot two](https://raw.githubusercontent.com/HRDTS/Battleship/main/img/battleshipss2.png)
 
 <h1>Project description:</h1><br>
 
